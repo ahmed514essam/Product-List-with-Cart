@@ -124,8 +124,106 @@ text-align: center;
     -moz-border-radius: 9px;
     -ms-border-radius: 9px;
     -o-border-radius: 9px;
+    transition: 1s ease;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -ms-transition: 1s ease;
+    -o-transition: 1s ease;
 }
-@media (max-width:773px) {
+.addy:hover {
+    width: 85px;
+    background-color: red;
+    color: white;
+    border: 0;
+}
+.pppppf {
+    color: red;
+}
+.pppp {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Cartcontent {
+overflow: scroll;
+scroll-behavior: smooth;
+}
+.Cartcontent {
+        width: 80%;
+        margin: auto;
+        height: 400px;
+        margin-top: 70px;
+        margin-left: 100px;
+        border-radius:10px ;
+        -webkit-border-radius:10px ;
+        -moz-border-radius:10px ;
+        -ms-border-radius:10px ;
+        -o-border-radius:10px ;
+        border: 1px solid rgb(214, 214, 214);
+        font-family: Arial, Helvetica, sans-serif;
+}
+.Cartcontent h2 {
+    text-align: center;
+    color: red;
+}
+.con  {
+    width: 97%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 10px;
+}
+.rP {
+    color: red;
+}
+.cc {
+    color: rgb(138, 138, 138);
+    font-size: .8em;
+}
+.fffee {
+    font-weight: 600;
+    color: chocolate;
+    font-size: .8em;
+}
+.one {
+    border: 1px solid rgb(158, 158, 158);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 80px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.divDele {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.btnDel {
+    width: 10px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    color: red;
+    background-color: white;
+    font-weight: 600;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+@media (max-width: 773px) {
     body {
         flex-direction: column;
     }
@@ -135,7 +233,29 @@ text-align: center;
     .cart {
         width: 97%;
     }
+    .Cartcontent {
+        width: 100%;
+        margin: auto;
+        height: 400px;
+        margin-top: 70px;
+        margin-left: 0px;
+        border-radius:10px ;
+        -webkit-border-radius:10px ;
+        -moz-border-radius:10px ;
+        -ms-border-radius:10px ;
+        -o-border-radius:10px ;
+        border: 1px solid rgb(214, 214, 214);
+        font-family: Arial, Helvetica, sans-serif;
 }
+}
+
 .redPrice {
     color: red;
+}
+
+.Tot {
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
 }
